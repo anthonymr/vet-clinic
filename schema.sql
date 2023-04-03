@@ -70,9 +70,10 @@ ALTER TABLE owners ADD COLUMN email VARCHAR(120);
 
 CREATE INDEX ON visits (animals_id);
 
-CREATE INDEX ON visits (vets_id);
 
 CREATE INDEX idx_vets_id_seek
     ON visits (vets_id)
     INCLUDE (id, animals_id, date_of_visit)
     WHERE (vets_id = 2);
+
+CREATE INDEX ON owners (email);
