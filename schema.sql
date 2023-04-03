@@ -74,5 +74,5 @@ CREATE INDEX ON visits (vets_id);
 
 CREATE INDEX idx_vets_id_seek
     ON visits (vets_id)
-    INCLUDE (animals_id, date_of_visit)
+    INCLUDE (id, animals_id, date_of_visit)
     WHERE (vets_id = 2);
