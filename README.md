@@ -11,6 +11,7 @@ This repository includes files with plain SQL that can be used to recreate a dat
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
+  - [:camera: project screenshot](#screen-shoot)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
@@ -33,6 +34,10 @@ This repository includes files with plain SQL that can be used to recreate a dat
 # 📖 Vet Clinic <a name="about-project"></a>
 
 **Vet Clinic** is an web App to handle data for a small vet clinic using PostgrSQL relational database...
+
+## Project Screenshots <a name="screen-shot"></a>
+
+![screen shot](er_diagram.png)
 
 ## 🛠 Built With <a name="built-with"></a>
 
